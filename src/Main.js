@@ -16,7 +16,7 @@ function Main () {
         }
     }
     return(
-        <router basename={process.env.PUBLIC_URL}>
+        <>
         <div id="main-image"></div>
         <div className="main-header-container">
             <Header />
@@ -28,8 +28,7 @@ function Main () {
             </div>
             <div className='task-container'>{nodle}</div>
         </div>
-
-        </router>
+        </>
     )
 }
 
