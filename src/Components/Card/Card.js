@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './Card.css'
 import Label from '../Label/Label';
 import { VscIssues} from 'react-icons/vsc';

@@ -4,8 +4,6 @@ import App from './App'
 import Task from './Task'
 import './Main.css'
 
-
-
 function Main () {
     const [nodle, setNodle] = useState(false);
     const Change = (selector) => {

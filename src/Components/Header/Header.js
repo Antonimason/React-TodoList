@@ -1,3 +1,4 @@
+import React from 'react';
 import "./Header.css";
 import {TiSocialFacebook} from 'react-icons/ti';
 import {IoLogoInstagram} from 'react-icons/io';

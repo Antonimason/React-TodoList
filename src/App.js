@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { useState } from "react";
 import "./App.css";
 import Calendar from "react-calendar";
@@ -41,7 +43,9 @@ function App() {
                     setMainlabel("normal");
                   }}
                 >
-                  <Label name="green" icon=<VscIssues /> color="green" />
+                  <Label name="green" icon={VscIssues} color="green" />
+
+                  {/* <Label name="green" icon=<VscIssues /> color="green" /> */}
                   <p>Normal</p>
                 </div>
 
@@ -51,7 +55,8 @@ function App() {
                     setMainlabel("medium");
                   }}
                 >
-                  <Label name="blue" icon=<VscIssues /> color="blue" />
+
+                  <Label name="blue" icon={VscIssues} color="blue" />
                   <p>Medium</p>
                 </div>
 
@@ -61,7 +66,7 @@ function App() {
                     setMainlabel("urgent");
                   }}
                 >
-                  <Label name="red" icon=<VscIssues /> color="red" />
+                  <Label name="red" icon={VscIssues} color="red" />
                   <p>Urgent</p>
                 </div>
               </div>

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './Label.css'
 
 function Label (props) {
